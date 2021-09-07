@@ -1,0 +1,166 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+margin: 0;
+
+}
+html ,body{
+    scroll-behavior: smooth;
+}
+.bg-secondary-soft {
+    background-color: #e4ddf7;
+}
+.text-secondary {
+    color: #6900c7;
+}
+.about{
+     background-image: url(https://www.transparenttextures.com/patterns/inspiration-geometry.png);
+     padding: 60px 0 60px 0;
+}
+
+.bg-secondarya{
+    background-color: #6900c7;
+}
+.g-padding{
+ padding-top: 65px;
+}
+.card-top{
+    background-color: #f8f8f8;
+    border-bottom: solid #dddede;
+}
+.card-br{
+    border-radius: 55px;
+}
+.main-showcase-1{
+    padding-bottom: 200px;
+    position: relative;
+}
+.main-showcase-1::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    clip-path: polygon(100% 50%, 0 100%, 100% 100% );
+}
+.about-para{
+    color: rgb(205, 213, 231);
+    font-size: 19px;
+}
+/*-----social-----*/
+
+.main-showcase-2{
+    padding-bottom: 150px;
+    position: relative;
+}
+.main-showcase-2::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #f2f5fc;
+    clip-path: polygon(100% 50%, 0 100%, 100% 100% );
+}
+.social-logos img{
+    width: 130px;
+    height: 130px;
+    justify-items: right;
+}
+.social-logos .inside-container{
+    flex-wrap: wrap;
+}
+.logo-box{
+    padding: 8px;
+    align-content: center;
+}
+.logo-head{
+   width: 100%;
+}
+.logo-head h5{
+    text-align: right;
+    letter-spacing: 1.1px;
+    margin-right: 8px;
+font-weight: 700;}
+.logo{
+   width: 100;
+   height: 100;
+}
+/*----marketing----*/
+.main-showcase-3{
+   
+    position: relative;
+   overflow: visible;
+    background-color: #f2f5fc;
+}
+.main-showcase-3::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    clip-path: polygon(100% 50%, 0 100%, 100% 100% );
+}
+.market-heading h5{
+font-weight: 400;
+color: rgba(61, 61, 61, 0.719);
+}
+.market-icon-1 {
+    background-color: #e3ddf7; 
+    color:#8c59bf;
+      
+    border-radius:50%;
+
+}
+.market-icon-2 {
+    background-color: #daeeed; 
+    color:#40ac85;
+      
+    border-radius:50%;
+
+}
+.market-icon-3 {
+    background-color: #dae7fa; 
+    color:#0960e3;
+      
+    border-radius:50%;
+
+}
+.market-icon-4 {
+    background-color: #f2eee3; 
+    color:#dfa32c;
+      
+    border-radius:50%;
+
+}
+.market-heading{
+    width: 70%;
+}
+
+/*---ready to get started----*/
+.contact-btn{
+    background-color: #f8f9fb;
+}
+.contact-btn:hover{
+    background-color:#cecece ;
+}
+.get-started{
+    border-bottom: #f1ebeb ridge;
+}
+/*---footer---*/
+.foot-text-color{
+    color: rgba(85, 84, 84, 0.74);
+}
+
+
+@media(max-width:767px){
+    .market-heading{
+        width: 100%;
+    }
+}
